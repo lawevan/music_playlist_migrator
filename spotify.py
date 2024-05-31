@@ -37,3 +37,7 @@ def authorize():
             + REDIRECT_URI + '&scope=' + SCOPE + '&state=' + state_key)
 
     return make_response(redirect(SPOTIFY_URL_AUTH + parameters))
+
+
+def getToken():
+    pass
